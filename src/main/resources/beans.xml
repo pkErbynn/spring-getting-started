@@ -8,11 +8,17 @@
     <property name="LName" value="erbynn" />
 </bean>
 
-<bean id="bestie" class="io.turntabl.springgettingstarted.BestieBean">
-    <property name="firstName" value="tetteh" />
-    <property name="LastName" value="nortey" />
-    <property name="Relationship" value="intimate" />
+<bean id="bestie" class="io.turntabl.springgettingstarted.HumanBean">
+    <property name="FName" value="peter" />
+    <property name="LName" value="arthur" />
+    <property name="Friend" ref="friend"/>
 </bean>
+
+<bean id="friend" class="io.turntabl.springgettingstarted.HumanBean">
+    <property name="FName" value="tetteh" />
+    <property name="LName" value="norther" />
+</bean>
+
 
 </beans>
 

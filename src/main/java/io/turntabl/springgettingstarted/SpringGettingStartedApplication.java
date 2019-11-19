@@ -12,11 +12,12 @@ public class SpringGettingStartedApplication {
 		System.out.println(person.fname);
 		System.out.println(person.lname);
 
-		BestieBean bestie = (BestieBean) ac.getBean("bestie");
+		HumanBean bestie = (HumanBean) ac.getBean("bestie");
 		System.out.println(" >>> Bestie Info <<<<<");
-		System.out.println("First Name; " + bestie.getFirstName());
-		System.out.println("Last Name: " + bestie.getLastName());
-		System.out.println("Relationship: " + bestie.getRelationship());
+		System.out.println("First Name; " + bestie.fname);
+		System.out.println("Last Name: " + bestie.lname);
+
+
 	}
 
 }
