@@ -12,10 +12,8 @@ public class SpringGettingStartedApplication {
 		System.out.println(person.fname);
 		System.out.println(person.lname);
 
-		HumanBean bestie = (HumanBean) ac.getBean("bestie");
-		System.out.println(" >>> Bestie Info <<<<<");
-		System.out.println("First Name; " + bestie.fname);
-		System.out.println("Last Name: " + bestie.lname);
+		System.out.println("First Name; " + person.bestFriend.fname);
+		System.out.println("Last Name: " + person.bestFriend.lname);
 
 
 	}
