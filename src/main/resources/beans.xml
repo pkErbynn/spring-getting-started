@@ -3,6 +3,10 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-
+<bean id="humanBean" class="io.turntabl.springgettingstarted.HumanBean">
+    <property name="FName" value="john" />
+    <property name="LName" value="erbynn" />
+</bean>
 
 </beans>
+
