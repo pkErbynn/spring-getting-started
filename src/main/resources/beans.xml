@@ -8,5 +8,11 @@
     <property name="LName" value="erbynn" />
 </bean>
 
+<bean id="bestie" class="io.turntabl.springgettingstarted.BestieBean">
+    <property name="firstName" value="tetteh" />
+    <property name="LastName" value="nortey" />
+    <property name="Relationship" value="intimate" />
+</bean>
+
 </beans>
 
