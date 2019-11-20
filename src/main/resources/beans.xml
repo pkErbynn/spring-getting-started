@@ -13,6 +13,15 @@
     <property name="FName" value="kojo" />
     <property name="LName" value="fosu" />
 </bean>
+       
+ /*
+ using constructor-arg config
+<bean id="humanBean" class="io.turntabl.springgettingstarted.HumanBean">
+    <constructor-arg value="john" />
+    <constructor-arg value="erbynn" />
+    <constructor-arg ref="friend"/>
+</bean>
+ */
 
 
 </beans>
